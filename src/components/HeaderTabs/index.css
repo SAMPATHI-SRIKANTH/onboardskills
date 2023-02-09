@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+}
+.form-section{
+    margin-top: 50px;
+}
+.header {
+    background-color: white;
+    width: 75vw;
+    border-bottom: 1px solid violet;
+}
+
+.tabs-list {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 0px;
+    margin-left: 0px; 
+    margin-bottom: 0px;
+}
+.tab {
+    font-size: "Roboto";
+    font-size: 17px;
+    font-weight: 500;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin: 0px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    
+}
+.active{
+border-bottom: 3px solid blueviolet;
+color: blue;
+
+}
+.line {
+border: 1px solid violet;
+}
+.skills-container {
+    height: 400px;
+    width: 100%;
+    overflow-y: scroll;
+}
+.skills-container::-webkit-scrollbar-track {
+    background-color: #fca5a5;
+} 

@@ -1,0 +1,65 @@
+.App {
+  display: flex;
+  position: absolute;
+}
+.sidebar {
+  height: 100%;
+  width:250px;
+  border-right: 1px solid rgb(151, 156, 200);
+  box-shadow: 0.5px 0 2px rgb(150, 140, 212);
+  margin-right: 5px;
+  text-align: center;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  overflow-x: hidden;
+ 
+
+}
+.right-side-content{
+  margin-left: 260px;
+  width: auto;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  overflow-x: hidden;
+  margin-right: 0px;
+}
+.profilebar{
+  margin:5px ;
+  display: flex;
+  flex-direction: row;
+ justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.input-container{
+  border: 1px solid brown;
+  padding: 3px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  width: 300px;
+
+}
+.input-el {
+  outline: none;
+  border: none;
+  font-family: "Roboto";
+  font-size: 15px;
+  line-height: 20px;
+  width:300px ;
+
+}
+.profile-section{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile-pic{
+  border-radius: 100%;
+  height: 27px;
+}
+.icon{
+margin: 2px;
+}

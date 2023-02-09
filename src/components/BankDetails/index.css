@@ -1,0 +1,94 @@
+.bank-info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.bank-head{
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: "Roboto";
+}
+.input-container {
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+    width: 30vw;
+    
+    
+}
+.bank-name {
+    padding: 15px;
+    border-radius: 5px;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+.label-input {
+    background-color: white;
+    color: brown;
+    font-size: 14px;
+    position: absolute;
+    left: 25px;
+    top: -7px;
+    padding: 0px 2px;
+}
+.confirm-save-changes-btns {
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px;
+}
+.confirm-btn {
+    background-color: blueviolet;
+    font-size: 15px;
+    color: white;
+    font-family: "Roboto";
+    border: 0px;
+    border-radius: 7px;
+    width: 230px;
+    height: 35px;
+    padding: 8px;
+   margin: 3px;
+   cursor: pointer;
+}
+.save-changes-btn{
+    width: 130px;
+    font-size: 15px;
+    color: cadetblue;
+    background-color: white;
+    border: 2px solid blanchedalmond;
+    border-radius: 7px;
+    height: 35px;
+    margin: 3px;
+    cursor: pointer;
+}
+.save-view-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    margin-top: 30px;
+}
+.savee-btn{
+    background-color: blueviolet;
+    font-size: 15px;
+    color: white;
+    font-family: "Roboto";
+    border: 0px;
+    border-radius: 7px;
+    width: 230px;
+    height: 35px;
+    padding: 8px;
+   margin: 3px;
+   cursor: pointer;
+}
+.view-btn {
+    width: 130px;
+    font-size: 15px;
+    color: rgb(99, 120, 176);
+    background-color: rgb(240, 240, 240);
+    border: 2px solid rgb(97, 149, 191);
+    border-radius: 7px;
+    height: 35px;
+    margin: 3px;
+    cursor: pointer;
+}
